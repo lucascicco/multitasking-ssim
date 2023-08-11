@@ -10,12 +10,14 @@ Installation
 ------------
 
 1.  Clone this repository
+
 2.  Navigate to the project directory:
 
-    cd multitasking-ssim
+    `cd multitasking-ssim`
 
 3.  Install the project dependencies using Poetry:
-    poetry install
+
+    `poetry install`
 
 Usage
 ----

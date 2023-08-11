@@ -61,9 +61,7 @@ class ImageComparisonProcessor:
         log.debug(f"Concurrently downloading {self.concurrency} images")
         sem = asyncio.Semaphore(self.concurrency)
         tasks: list[asyncio.Task[str]] = []
-        index = 0
         for key, image in self.other_images.items():
-            index += 1
             tasks.append(
                 asyncio.create_task(
                     download_image_ret_key(
@@ -73,7 +71,6 @@ class ImageComparisonProcessor:
                         session=session,
                         directory=self.download_directory,
                         force=True,
-                        index=index,
                     ),
                 ),
             )

@@ -17,10 +17,8 @@ async def download_image_ret_key(
     session: aiohttp.ClientSession,
     directory: AsyncPath,
     force: bool = False,
-    index: int = 0,
 ) -> str:
     async with sem:
-        await asyncio.sleep(index)
         log.debug(f"Downloading image {key}")
         await image.download(
             directory=directory,
