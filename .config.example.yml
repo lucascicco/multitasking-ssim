@@ -1,0 +1,209 @@
+concurrency: 20
+download_directory: ~/Downloads/image_processing
+output:
+  file: ~/image_processing_output.csv
+images:
+  main:
+    id: 1
+    src: https://avatars.githubusercontent.com/u/100970?s=1000&v=4
+  others:
+  - id: 2
+    src: https://avatars.githubusercontent.com/u/100959?s=1000&v=4
+  - id: 3
+    src: https://avatars.githubusercontent.com/u/100960?s=1000&v=4
+  - id: 4
+    src: https://avatars.githubusercontent.com/u/100961?s=1000&v=4
+  - id: 5
+    src: https://avatars.githubusercontent.com/u/100962?s=1000&v=4
+  - id: 6
+    src: https://avatars.githubusercontent.com/u/100963?s=1000&v=4
+  - id: 7
+    src: https://avatars.githubusercontent.com/u/100964?s=1000&v=4
+  - id: 8
+    src: https://avatars.githubusercontent.com/u/100965?s=1000&v=4
+  - id: 9
+    src: https://avatars.githubusercontent.com/u/100966?s=1000&v=4
+  - id: 10
+    src: https://avatars.githubusercontent.com/u/100967?s=1000&v=4
+  - id: 11
+    src: https://avatars.githubusercontent.com/u/100968?s=1000&v=4
+  - id: 12
+    src: https://avatars.githubusercontent.com/u/100969?s=1000&v=4
+  - id: 13
+    src: https://avatars.githubusercontent.com/u/100970?s=1000&v=4
+  - id: 14
+    src: https://avatars.githubusercontent.com/u/100971?s=1000&v=4
+  - id: 15
+    src: https://avatars.githubusercontent.com/u/100972?s=1000&v=4
+  - id: 16
+    src: https://avatars.githubusercontent.com/u/100973?s=1000&v=4
+  - id: 17
+    src: https://avatars.githubusercontent.com/u/100974?s=1000&v=4
+  - id: 18
+    src: https://avatars.githubusercontent.com/u/100975?s=1000&v=4
+  - id: 19
+    src: https://avatars.githubusercontent.com/u/100976?s=1000&v=4
+  - id: 20
+    src: https://avatars.githubusercontent.com/u/100977?s=1000&v=4
+  - id: 21
+    src: https://avatars.githubusercontent.com/u/100978?s=1000&v=4
+  - id: 22
+    src: https://avatars.githubusercontent.com/u/100979?s=1000&v=4
+  - id: 23
+    src: https://avatars.githubusercontent.com/u/100980?s=1000&v=4
+  - id: 24
+    src: https://avatars.githubusercontent.com/u/100981?s=1000&v=4
+  - id: 25
+    src: https://avatars.githubusercontent.com/u/100982?s=1000&v=4
+  - id: 26
+    src: https://avatars.githubusercontent.com/u/100983?s=1000&v=4
+  - id: 27
+    src: https://avatars.githubusercontent.com/u/100984?s=1000&v=4
+  - id: 28
+    src: https://avatars.githubusercontent.com/u/100985?s=1000&v=4
+  - id: 29
+    src: https://avatars.githubusercontent.com/u/100986?s=1000&v=4
+  - id: 30
+    src: https://avatars.githubusercontent.com/u/100987?s=1000&v=4
+  - id: 31
+    src: https://avatars.githubusercontent.com/u/100988?s=1000&v=4
+  - id: 32
+    src: https://avatars.githubusercontent.com/u/100989?s=1000&v=4
+  - id: 33
+    src: https://avatars.githubusercontent.com/u/100990?s=1000&v=4
+  - id: 34
+    src: https://avatars.githubusercontent.com/u/100991?s=1000&v=4
+  - id: 35
+    src: https://avatars.githubusercontent.com/u/100992?s=1000&v=4
+  - id: 36
+    src: https://avatars.githubusercontent.com/u/100993?s=1000&v=4
+  - id: 37
+    src: https://avatars.githubusercontent.com/u/100994?s=1000&v=4
+  - id: 38
+    src: https://avatars.githubusercontent.com/u/100995?s=1000&v=4
+  - id: 39
+    src: https://avatars.githubusercontent.com/u/100996?s=1000&v=4
+  - id: 40
+    src: https://avatars.githubusercontent.com/u/100997?s=1000&v=4
+  - id: 41
+    src: https://avatars.githubusercontent.com/u/100998?s=1000&v=4
+  - id: 42
+    src: https://avatars.githubusercontent.com/u/100999?s=1000&v=4
+  - id: 43
+    src: https://avatars.githubusercontent.com/u/101000?s=1000&v=4
+  - id: 44
+    src: https://avatars.githubusercontent.com/u/101001?s=1000&v=4
+  - id: 45
+    src: https://avatars.githubusercontent.com/u/101002?s=1000&v=4
+  - id: 46
+    src: https://avatars.githubusercontent.com/u/101003?s=1000&v=4
+  - id: 47
+    src: https://avatars.githubusercontent.com/u/101004?s=1000&v=4
+  - id: 48
+    src: https://avatars.githubusercontent.com/u/101005?s=1000&v=4
+  - id: 49
+    src: https://avatars.githubusercontent.com/u/101006?s=1000&v=4
+  - id: 50
+    src: https://avatars.githubusercontent.com/u/101007?s=1000&v=4
+  - id: 51
+    src: https://avatars.githubusercontent.com/u/101008?s=1000&v=4
+  - id: 52
+    src: https://avatars.githubusercontent.com/u/101009?s=1000&v=4
+  - id: 53
+    src: https://avatars.githubusercontent.com/u/101010?s=1000&v=4
+  - id: 54
+    src: https://avatars.githubusercontent.com/u/101011?s=1000&v=4
+  - id: 55
+    src: https://avatars.githubusercontent.com/u/101012?s=1000&v=4
+  - id: 56
+    src: https://avatars.githubusercontent.com/u/101013?s=1000&v=4
+  - id: 57
+    src: https://avatars.githubusercontent.com/u/101014?s=1000&v=4
+  - id: 58
+    src: https://avatars.githubusercontent.com/u/101015?s=1000&v=4
+  - id: 59
+    src: https://avatars.githubusercontent.com/u/101016?s=1000&v=4
+  - id: 60
+    src: https://avatars.githubusercontent.com/u/101017?s=1000&v=4
+  - id: 61
+    src: https://avatars.githubusercontent.com/u/101018?s=1000&v=4
+  - id: 62
+    src: https://avatars.githubusercontent.com/u/101019?s=1000&v=4
+  - id: 63
+    src: https://avatars.githubusercontent.com/u/101020?s=1000&v=4
+  - id: 64
+    src: https://avatars.githubusercontent.com/u/101021?s=1000&v=4
+  - id: 65
+    src: https://avatars.githubusercontent.com/u/101022?s=1000&v=4
+  - id: 66
+    src: https://avatars.githubusercontent.com/u/101023?s=1000&v=4
+  - id: 67
+    src: https://avatars.githubusercontent.com/u/101024?s=1000&v=4
+  - id: 68
+    src: https://avatars.githubusercontent.com/u/101025?s=1000&v=4
+  - id: 69
+    src: https://avatars.githubusercontent.com/u/101026?s=1000&v=4
+  - id: 70
+    src: https://avatars.githubusercontent.com/u/101027?s=1000&v=4
+  - id: 71
+    src: https://avatars.githubusercontent.com/u/101028?s=1000&v=4
+  - id: 72
+    src: https://avatars.githubusercontent.com/u/101029?s=1000&v=4
+  - id: 73
+    src: https://avatars.githubusercontent.com/u/101030?s=1000&v=4
+  - id: 74
+    src: https://avatars.githubusercontent.com/u/101031?s=1000&v=4
+  - id: 75
+    src: https://avatars.githubusercontent.com/u/101032?s=1000&v=4
+  - id: 76
+    src: https://avatars.githubusercontent.com/u/101033?s=1000&v=4
+  - id: 77
+    src: https://avatars.githubusercontent.com/u/101034?s=1000&v=4
+  - id: 78
+    src: https://avatars.githubusercontent.com/u/101035?s=1000&v=4
+  - id: 79
+    src: https://avatars.githubusercontent.com/u/101036?s=1000&v=4
+  - id: 80
+    src: https://avatars.githubusercontent.com/u/101037?s=1000&v=4
+  - id: 81
+    src: https://avatars.githubusercontent.com/u/101038?s=1000&v=4
+  - id: 82
+    src: https://avatars.githubusercontent.com/u/101039?s=1000&v=4
+  - id: 83
+    src: https://avatars.githubusercontent.com/u/101040?s=1000&v=4
+  - id: 84
+    src: https://avatars.githubusercontent.com/u/101041?s=1000&v=4
+  - id: 85
+    src: https://avatars.githubusercontent.com/u/101042?s=1000&v=4
+  - id: 86
+    src: https://avatars.githubusercontent.com/u/101043?s=1000&v=4
+  - id: 87
+    src: https://avatars.githubusercontent.com/u/101044?s=1000&v=4
+  - id: 88
+    src: https://avatars.githubusercontent.com/u/101045?s=1000&v=4
+  - id: 89
+    src: https://avatars.githubusercontent.com/u/101046?s=1000&v=4
+  - id: 90
+    src: https://avatars.githubusercontent.com/u/101047?s=1000&v=4
+  - id: 91
+    src: https://avatars.githubusercontent.com/u/101048?s=1000&v=4
+  - id: 92
+    src: https://avatars.githubusercontent.com/u/101049?s=1000&v=4
+  - id: 93
+    src: https://avatars.githubusercontent.com/u/101050?s=1000&v=4
+  - id: 94
+    src: https://avatars.githubusercontent.com/u/101051?s=1000&v=4
+  - id: 95
+    src: https://avatars.githubusercontent.com/u/101052?s=1000&v=4
+  - id: 96
+    src: https://avatars.githubusercontent.com/u/101053?s=1000&v=4
+  - id: 97
+    src: https://avatars.githubusercontent.com/u/101054?s=1000&v=4
+  - id: 98
+    src: https://avatars.githubusercontent.com/u/101055?s=1000&v=4
+  - id: 99
+    src: https://avatars.githubusercontent.com/u/101056?s=1000&v=4
+  - id: 100
+    src: https://avatars.githubusercontent.com/u/101057?s=1000&v=4
+  - id: 101
+    src: https://avatars.githubusercontent.com/u/101053?s=1000&v=4

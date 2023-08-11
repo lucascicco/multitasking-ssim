@@ -1,0 +1,139 @@
+[tool.poetry]
+name = "multitasking-ssim"
+version = "0.1.0"
+description = ""
+authors = ["lucascicco <lucasvitorx1@gmail.com>"]
+readme = "README.md"
+packages = [{include = "multitasking_ssim"}]
+
+[tool.poetry.scripts]
+cli = "multitasking_ssim.cli:run"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uvloop = "^0.17.0"
+click = "^8.1.6"
+click-log = "^0.4.0"
+aiopath = "^0.6.11"
+aiofiles = "^23.1.0"
+aiocsv = "^1.2.4"
+aiohttp = "^3.8.5"
+opencv-python = "^4.8.0.74"
+pyyaml = "^6.0.1"
+scikit-image = "^0.21.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+codecov = "^2.1.12"
+pytest = "^7.1.2"
+pytest-cov = "^4.0.0"
+ipython = "^8.4.0"
+pytest-asyncio = "^0.21.0"
+ruff = "^0.0.267"
+
+[tool.ruff]
+line-length = 100
+select = [
+  "E",
+  "F",
+  "W",
+  "I",
+  "N",
+  "D",
+  "UP",
+  "YTT",
+  "D2",
+  "D3",
+  "D4",
+  "BLE",
+  "B",
+  "A",
+  "COM",
+  "C4",
+  "DTZ",
+  "T10",
+  "EXE",
+  "ISC",
+  "ICN001",
+  "G",
+  "INP",
+  "PIE",
+  "T20",
+  "PYI",
+  "PT",
+  "Q",
+  "RET",
+  "SIM",
+  "TID",
+  "TCH",
+  "PTH",
+  "ERA",
+  "PGH",
+  "PL",
+  "RSE",
+  "RUF",
+  "TRY",
+  "SLF",
+]
+ignore = [
+  "D1",
+  "D203",
+  "D213",
+  "D417",
+  "G004",
+  "TCH001",
+  "TCH002",
+  "TCH003",
+  "PGH003",
+  "PLR09",
+  "PLR2004",
+  "SLF001",
+  "TRY003",
+  "TRY301",
+]
+target-version = "py311"
+exclude = [
+  ".eggs",
+  ".git",
+  ".hg",
+  ".mypy_cache",
+  ".tox",
+  ".venv",
+  "__pycached__",
+  "_build",
+  "buck-out",
+  "build",
+  "dist",
+]
+
+[tool.ruff.isort]
+known-first-party = ["multitasking_ssim"]
+
+[tool.black]
+line-length = 100
+target-version = ['py311']
+preview = true
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | __pycached__
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.pytest.ini_options]
+python_files = "tests/test_*.py"
+addopts = "-p no:warnings --cov=./ --cov-report term-missing:skip-covered"
+asyncio_mode = "auto"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
