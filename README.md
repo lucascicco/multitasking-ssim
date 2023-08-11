@@ -37,3 +37,4 @@ Flags and Options
 ----------------
 
 * `-c`, `--config`: The configuration file path (YAML)
+* `--debug`: Run the code in debug mode
