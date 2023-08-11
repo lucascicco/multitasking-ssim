@@ -3,7 +3,7 @@ Multitasking SSIM
 
 This project has been crafted to harness the power of the Python asyncio library, enabling the concurrent processing of images downloaded from the internet. It's required the utilization of Python 3.11.
 
-Underneath the surface, the program excels at parallel image downloading based on the configuration settings. Following this, it performs intricate image comparison using metrics like MSE, SSIM, and PSNR against a reference image. The resulting data is exported to a CSV file.
+Underneath the surface, the program excels at parallel image downloading based on the configuration settings. Following this, it performs intricate image comparison using metrics like MSE, SSIM, and PSNR against a reference image (The main image). The resulting data is exported to a CSV file.
 
 
 Installation
